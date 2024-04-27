@@ -3,7 +3,7 @@ import vlc
 import keyboard
 
 playing = set([1, 2, 3, 4])
-video_directory = "/home/pi/Downloads/vis3.mp4"
+video_directory = "/home/pi/flag/media/Untitled [FLAG].mp4"
 # creating Instance class object
 vlc_instance = vlc.Instance()
 
