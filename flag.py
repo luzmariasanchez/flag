@@ -1,6 +1,5 @@
 from time import sleep
 import vlc
-import keyboard
 
 playing = set([1, 2, 3, 4])
 video_directory = "/home/pi/flag/media/Untitled [FLAG].mp4"
@@ -16,12 +15,5 @@ while True:
     player.set_mrl(video_directory)
     player.play()
     sleep(1)
-    while player.get_state() in playing:
-        sleep(1)
-        # Check if 'q' is pressed to stop execution
-        if keyboard.is_pressed('q'):
-            player.stop()
-            print("Execution stopped by user")
-            exit()  # Exit the program
     print("Finished")
     sleep(5)
