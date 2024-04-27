@@ -26,7 +26,6 @@ pip install python-vlc
 
 - Ensure VLC Media Player is installed on your system.
 - Specify the directory path of the video in the `video_directory` variable.
-- Adjust the `playing` set with the numbers of the videos you want to play.
 
 ## Usage
 
